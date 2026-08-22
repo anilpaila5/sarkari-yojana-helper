@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anilpaila5.github.io/sarkari-yojana-helper/sitemap.xml
