@@ -1,0 +1,184 @@
+{
+  "version": "2026.08",
+  "pack": "state_up",
+  "schemes": [
+    {
+      "id": "up_kanya_sumangala",
+      "names": {"en": "Kanya Sumangala Yojana (UP)", "hi": "कन्या सुमंगला योजना"},
+      "aliases": ["girl child up", "sumangala", "बालिका हित"],
+      "category": "women",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Total ₹25,000 in 6 stages for a girl child - from birth to graduation - directly in mother's account.", "hi": "बेटी के जन्म से ग्रेजुएशन तक 6 चरणों में कुल ₹25,000, सीधे मां के खाते में।"},
+      "eligibility": {
+        "gender": "female",
+        "maxIncomeLakh": 3,
+        "notes": {"en": "Max 2 daughters per family; stages include birth registration, vaccination, admission to class 1, 6, 9 and graduation.", "hi": "परिवार में अधिकतम 2 बेटियां; चरणों में जन्म पंजीकरण, टीकाकरण, कक्षा 1, 6, 9 और ग्रेजुएशन में प्रवेश शामिल।"}
+      },
+      "documents": ["Aadhaar card", "Income certificate", "Birth certificate", "Bank account of mother", "Domicile (UP)"],
+      "applyUrl": "https://mksy.up.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/schemes/kanya-sumangala",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "up_vriddhjan_pension",
+      "names": {"en": "UP Old Age Pension", "hi": "यूपी वृद्धावस्था पेंशन"},
+      "aliases": ["vriddha pension up", "old age up"],
+      "category": "senior",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "₹1,000/month state pension for poor elderly (60+) of UP, over and above any central pension.", "hi": "यूपी के गरीब बुज़ुर्गों (60+) को ₹1,000/माह राज्य पेंशन, केंद्रीय पेंशन के ऊपर।"},
+      "eligibility": {
+        "minAge": 60,
+        "notes": {"en": "Low-income families as per current notification; apply via SSO ID on integrated pension portal or Tehsil Diwas.", "hi": "वर्तमान अधिसूचना अनुसार कम आय वाले परिवार; SSO आईडी से पेंशन पोर्टल या तहसील दिवस पर आवेदन।"}
+      },
+      "documents": ["Aadhaar card", "Income certificate", "Age proof", "Bank passbook", "Residence proof"],
+      "applyUrl": "https://sso.up.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Uttar%20Pradesh%20pension",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "up_vidhwa_pension",
+      "names": {"en": "UP Widow Pension", "hi": "यूपी विधवा पेंशन"},
+      "aliases": ["vidhwa pension", "widow allowance up"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "₹1,000/month pension for widows of UP from poor families.", "hi": "यूपी की गरीब परिवारों की विधवाओं को ₹1,000/माह पेंशन।"},
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "notes": {"en": "Remarried women not eligible; income criteria as per current notification.", "hi": "पुनर्विवाहित महिलाएं पात्र नहीं; आय मानदंड वर्तमान अधिसूचना अनुसार।"}
+      },
+      "documents": ["Husband's death certificate", "Aadhaar card", "Income certificate", "Bank passbook"],
+      "applyUrl": "https://sso.up.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Uttar%20Pradesh%20vidhwa%20pension",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "up_divyangjan_pension",
+      "names": {"en": "UP Divyangjan Pension", "hi": "यूपी दिव्यांगजन पेंशन"},
+      "aliases": ["disability pension up", "divyang pension"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "₹1,000/month pension for persons with disability (40%+ disability certificate) from poor families.", "hi": "गरीब परिवारों के दिव्यांगजनों (40%+ डिसेबिलिटी सर्टिफिकेट) को ₹1,000/माह पेंशन।"},
+      "eligibility": {
+        "notes": {"en": "Requires UDID/disability certificate of 40% or more.", "hi": "40% या अधिक का यूडीआईडी/डिसेबिलिटी सर्टिफिकेट ज़रूरी।"}
+      },
+      "documents": ["UDID/disability certificate", "Aadhaar card", "Income certificate", "Bank passbook"],
+      "applyUrl": "https://sso.up.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Uttar%20Pradesh%20divyang%20pension",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "up_shadi_anudan",
+      "names": {"en": "Shadi Anudan Yojana (UP Marriage Grant)", "hi": "शादी अनुदान योजना"},
+      "aliases": ["marriage grant up", "shadi anudan", "vivah anudan"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "₹20,000 grant for marriage of daughters from low-income families.", "hi": "कम आय वाले परिवारों की बेटियों की शादी के लिए ₹20,000 अनुदान।"},
+      "eligibility": {
+        "gender": "female",
+        "notes": {"en": "Family income within limit notified by state; application usually before marriage date.", "hi": "परिवार की आय राज्य की तय सीमा में; शादी की तारीख से पहले आवेदन ज़रूरी।"}
+      },
+      "documents": ["Aadhaar cards (bride & parents)", "Income certificate", "Age proof of bride", "Bank passbook"],
+      "applyUrl": "https://shadianudan.upsdc.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Shadi%20Anudan",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "up_bhagya_laxmi",
+      "names": {"en": "Bhagya Laxmi Yojana (UP)", "hi": "भाग्य लक्ष्मी योजना"},
+      "aliases": ["bhagyalakshmi bond", "girl bond up"],
+      "category": "women",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Certificate/bond bought by government for girl born in a government hospital; grows into a large amount paid when she turns 21 (stays in school).", "hi": "सरकारी अस्पताल में जन्मी बेटी के नाम सरकार बॉन्ड खरीदती है; 21 साल (और स्कूली शिक्षा जारी) पर बड़ी रकम मिलती है।"},
+      "eligibility": {
+        "gender": "female",
+        "maxAge": 1,
+        "notes": {"en": "Registration within one year of birth; birth in government institution; max 2 daughters.", "hi": "जन्म के एक साल के भीतर पंजीकरण; सरकारी संस्थान में जन्म; अधिकतम 2 बेटियां।"}
+      },
+      "documents": ["Birth certificate", "Aadhaar card of parents", "Bank account", "Hospital proof"],
+      "applyUrl": "https://bhagalaxmi.upsdc.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Bhagya%20Laxmi",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "up_scholarship",
+      "names": {"en": "UP Scholarship (Pre & Post Matric)", "hi": "यूपी छात्रवृत्ति (प्री/पोस्ट मैट्रिक)"},
+      "aliases": ["scholarship up gov", "up fee reimbursement", "छात्रवृत्ति यूपी"],
+      "category": "education",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Fee reimbursement and scholarships for UP students from class 9 through college - SC/ST/OBC/minority/general categories have different rates.", "hi": "कक्षा 9 से कॉलेज तक यूपी के छात्रों को फीस वापसी और छात्रवृत्ति — SC/ST/OBC/अल्पसंख्यक/सामान्य की अलग दरें।"},
+      "eligibility": {
+        "occupations": ["student"],
+        "notes": {"en": "Annual renewal needed; income limits vary by category (e.g., ~₹2–2.5 lakh for reserved categories). Apply early - portal closes fast.", "hi": "हर साल नवीनीकरण; श्रेणी अनुसार आय सीमा (आरक्षित वर्गों हेतु ~₹2–2.5 लाख)। जल्दी अप्लाई करें — पोर्टल जल्दी बंद हो जाता है।"}
+      },
+      "documents": ["Caste/income certificates", "Aadhaar card", "Previous marksheets", "Fee receipt", "Bank passbook"],
+      "applyUrl": "https://scholarship.up.gov.in",
+      "sourceUrl": "https://scholarship.up.gov.in",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "up_abhyudaya_coaching",
+      "names": {"en": "Abhyudaya Free Coaching (UP)", "hi": "अभ्युदय मुफ्त कोचिंग"},
+      "aliases": ["free neet jee coaching", "abhyudaya", "upscc coaching free"],
+      "category": "education",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Free coaching for NEET, JEE, CUET, UPSC and other competitive exams with mentorship, both offline and online.", "hi": "NEET, JEE, CUET, UPSC और अन्य प्रतियोगी परीक्षाओं की मुफ्त कोचिंग — मेंटरशिप के साथ, ऑफलाइन और ऑनलाइन।"},
+      "eligibility": {
+        "occupations": ["student", "unemployed"],
+        "notes": {"en": "Selection through entrance test; divisions across UP districts.", "hi": "प्रवेश परीक्षा से चयन; यूपी के ज़िलों में केंद्र।"}
+      },
+      "documents": ["Aadhaar card", "Educational certificates", "Photo"],
+      "applyUrl": "https://abhyudayayojana.in",
+      "sourceUrl": "https://abhyudayayojana.in",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "up_sewayojan_allowance",
+      "names": {"en": "UP Unemployment Allowance (Sewayojan)", "hi": "यूपी बेरोज़गारी भत्ता (सेवायोजन)"},
+      "aliases": ["berojgari bhatta up", "sewayojan", "unemployment allowance"],
+      "category": "employment",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Monthly allowance for registered unemployed youth (approx ₹1,000–₹1,500 depending on qualification) plus job listings on the Sewayojan portal.", "hi": "पंजीकृत बेरोज़गार युवाओं को मासिक भत्ता (क्वालिफिकेशन अनुसार लगभग ₹1,000–₹1,500) + सेवायोजन पोर्टल पर नौकरी सूची।"},
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 35,
+        "occupations": ["unemployed"],
+        "notes": {"en": "Register on Sewayojan portal first; allowance availability subject to current budget notifications.", "hi": "पहले सेवायोजन पोर्टल पर रजिस्टर करें; भत्ता वर्तमान बजट अधिसूचना के अधीन।"}
+      },
+      "documents": ["Aadhaar card", "Educational certificates", "Employment registration number", "Bank passbook"],
+      "applyUrl": "https://sewayojan.up.nic.in",
+      "sourceUrl": "https://sewayojan.up.nic.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "up_mission_shakti",
+      "names": {"en": "Mission Shakti (UP Women Safety)", "hi": "मिशन शक्ति (महिला सुरक्षा)"},
+      "aliases": ["mission shakti", "women helpline up", "mahila suraksha"],
+      "category": "women",
+      "level": "state",
+      "states": ["up"],
+      "benefits": {"en": "Umbrella program: Women Helpline 1090, One Stop Centres, Mahila Police help desks, self-defense training, and support for violence victims.", "hi": "समग्र कार्यक्रम: महिला हेल्पलाइन 1090, वन स्टॉप सेंटर, महिला पुलिस डेस्क, सेल्फ-डिफेंस ट्रेनिंग और हिंसा पीड़ितों की मदद।"},
+      "eligibility": {
+        "gender": "female",
+        "notes": {"en": "Helpline and centres open to all women; no paperwork needed to call 1090.", "hi": "हेल्पलाइन और केंद्र सभी महिलाओं के लिए; 1090 पर कॉल के लिए कागज़ी कार्रवाई नहीं।"}
+      },
+      "documents": [],
+      "applyUrl": "",
+      "sourceUrl": "https://missionshakti.up.gov.in",
+      "lastVerified": "2026-08"
+    }
+  ]
+}

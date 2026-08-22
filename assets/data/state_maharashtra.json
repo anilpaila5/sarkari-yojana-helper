@@ -1,0 +1,168 @@
+{
+  "version": "2026.08",
+  "pack": "state_maharashtra",
+  "schemes": [
+    {
+      "id": "mh_ladki_bahin",
+      "names": {"en": "Majhi Ladki Bahin Yojana", "hi": "माझी लाड़की बहिण योजना"},
+      "aliases": ["ladki bahin", "1500 women maharashtra", "लाड़की बहिण"],
+      "category": "women",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "₹1,500 per month directly in the bank account of eligible women of Maharashtra (21–65 years) from low-income families.", "hi": "महाराष्ट्र की पात्र महिलाओं (21–65 साल, कम आय वाले परिवार) को ₹1,500/माह सीधे बैंक खाते में।"},
+      "eligibility": {
+        "gender": "female",
+        "minAge": 21,
+        "maxAge": 65,
+        "maxIncomeLakh": 2.5,
+        "notes": {"en": "Married/unmarried/widowed/divorced women eligible; income-tax payers and families with govt employees excluded; yellow/orange/antyodaya ration holders get priority.", "hi": "शादीशुदा/अविवाहित/विधवा/तलाकशुदा महिलाएं पात्र; आयकरदाता और सरकारी कर्मचारी परिवार बाहर; पीले/नारंगी/अंत्योदय राशनधारकों को प्राथमिकता।"}
+      },
+      "documents": ["Aadhaar card", "Domicile (Maharashtra)", "Ration card", "Income certificate", "Bank passbook", "Husband's death certificate (if widow)"],
+      "applyUrl": "https://ladakibahin.maharashtra.gov.in",
+      "sourceUrl": "https://ladakibahin.maharashtra.gov.in",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "mh_lek_ladki",
+      "names": {"en": "Lek Ladki Yojana", "hi": "लेक लाड़की योजना"},
+      "aliases": ["lek ladki", "girl child mh", "yellow ration girl"],
+      "category": "women",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "Staged payments totalling about ₹1 lakh for girl children of yellow/orange ration card families - at birth, class 1, 8, 12 and age 18.", "hi": "पीले/नारंगी राशन कार्ड परिवारों की बच्चियों को अलग-अलग पड़ावों पर कुल लगभग ₹1 लाख — जन्म, कक्षा 1, 8, 12 और 18 साल पर।"},
+      "eligibility": {
+        "gender": "female",
+        "maxAge": 1,
+        "notes": {"en": "Registration at birth (within 60 days); family must hold yellow/orange ration card.", "hi": "जन्म के 60 दिन के भीतर पंजीकरण; परिवार के पास पीला/नारंगी राशन कार्ड ज़रूरी।"}
+      },
+      "documents": ["Birth certificate", "Ration card (yellow/orange)", "Aadhaar cards", "Bank account of mother"],
+      "applyUrl": "",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Lek%20Ladki",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "mh_sanjay_gandhi_niradhar",
+      "names": {"en": "Sanjay Gandhi Niradhar Anudan Yojana", "hi": "संजय गांधी निराधार अनुदान योजना"},
+      "aliases": ["niradhar anudan", "destitute pension mh", "widow pension mh"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "₹1,500/month support for destitute persons: widows, divorced/abandoned women, disabled, orphans, elderly without support, and serious-illness patients.", "hi": "निराधार लोगों को ₹1,500/माह — विधवा, तलाकशुदा/परित्यक्ता महिलाएं, दिव्यांग, अनाथ, बिना सहारे बुज़ुर्ग और गंभीर बीमारी के मरीज़।"},
+      "eligibility": {
+        "minAge": 18,
+        "maxIncomeLakh": 2.1,
+        "notes": {"en": "Annual income within notified limit; category-specific documents needed (e.g., disability cert, medical papers).", "hi": "सालाना आय तय सीमा के भीतर; श्रेणी अनुसार दस्तावेज़ (डिसेबिलिटी सर्टिफिकेट, मेडिकल कागज़ आदि)।"}
+      },
+      "documents": ["Aadhaar card", "Income certificate", "Category proof (disability/medical/death certificate)", "Domicile", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Sanjay%20Gandhi%20Niradhar",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "mh_shravan_bal",
+      "names": {"en": "Shravan Bal Seva Rajya Nivrutti Yojana", "hi": "श्रवण बल सेवा राज्य निवृत्ति योजना"},
+      "aliases": ["shravan bal", "elderly pension mh", "65 pension"],
+      "category": "senior",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "₹1,500/month state pension for poor senior citizens (65+) of Maharashtra living alone or without adequate support.", "hi": "महाराष्ट्र के गरीब बुज़ुर्गों (65+, अकेले या बिना सहारे रहने वालों) को ₹1,500/माह राज्य पेंशन।"},
+      "eligibility": {
+        "minAge": 65,
+        "notes": {"en": "BPL-type income criteria apply; apply via Setu/Aaple Sarkar centres.", "hi": "BPL जैसी आय शर्तें; सेतु/आपले सरकार केंद्र से आवेदन।"}
+      },
+      "documents": ["Aadhaar card", "Age proof", "Income certificate", "Domicile", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://aaplesarkar.mahaonline.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "mh_namo_shetkari",
+      "names": {"en": "Namo Shetkari Mahasanman Nidhi", "hi": "नमो शेतकरी महासन्मान निधि"},
+      "aliases": ["namo shetkari", "12000 farmer mh", "extra kisan mh"],
+      "category": "agriculture",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "Extra ₹6,000/year from Maharashtra government on top of PM-KISAN - total ₹12,000/year for eligible farmers.", "hi": "पीएम-किसान के ऊपर महाराष्ट्र सरकार की अतिरिक्त ₹6,000/साल — यानी पात्र किसानों को कुल ₹12,000/साल।"},
+      "eligibility": {
+        "occupations": ["farmer"],
+        "notes": {"en": "Same eligibility as PM-KISAN; auto-linked if you are a verified PM-KISAN beneficiary in Maharashtra.", "hi": "पीएम-किसान जैसी ही पात्रता; महाराष्ट्र के सत्यापित पीएम-किसान लाभार्थियों को अपने आप।"}
+      },
+      "documents": ["Land record", "Aadhaar card", "PM-KISAN registration"],
+      "applyUrl": "https://krishi.maharashtra.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Namo%20Shetkari",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "mh_magel_tyala_solar_pump",
+      "names": {"en": "Magel Tyala Saur Krushi Pump", "hi": "मागेल त्याला सौर कृषि पंप"},
+      "aliases": ["solar pump mh", "saur pump", "magel tyala pump"],
+      "category": "agriculture",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "Up to ~95% subsidy on solar-powered irrigation pumps for farmers with assured water source.", "hi": "पक्के पानी के स्रोत वाले किसानों को सोलर सिंचाई पंप पर ~95% तक सब्सिडी।"},
+      "eligibility": {
+        "occupations": ["farmer"],
+        "notes": {"en": "Lottery-based selection when applications exceed targets; no pending electricity dues preferred.", "hi": "आवेदन ज़्यादा होने पर लॉटरी से चयन; बिजली बकाया न होना बेहतर।"}
+      },
+      "documents": ["7/12 land extract", "Aadhaar card", "Water source proof", "Bank passbook"],
+      "applyUrl": "https://mrsac.maharashtra.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Magel%20Tyala%20Saur",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "mh_magel_tyala_shettale",
+      "names": {"en": "Magel Tyala Shettale (Goat/Sheep Shed)", "hi": "मागेल त्याला शेततळे/शेळी पालन"},
+      "aliases": ["goat shed subsidy", "shettale", "bakri palan mh"],
+      "category": "business",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "About ₹50,000 assistance to build a shed for goat/sheep rearing farmers.", "hi": "बकरी/भेड़ पालन करने वाले किसानों को कोठारी बनाने के लिए लगभग ₹50,000 मदद।"},
+      "eligibility": {
+        "occupations": ["farmer", "self_employed"],
+        "minAge": 18
+      },
+      "documents": ["Aadhaar card", "Animal husbandry proof", "Land document", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://krishi.maharashtra.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "mh_mahadbt_scholarship",
+      "names": {"en": "MahaDBT Scholarships", "hi": "महाडीबीटी छात्रवृत्ति"},
+      "aliases": ["mahadbt", "post matric mh", "fee reimbursement mh"],
+      "category": "education",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "One portal for all Maharashtra scholarships: post-matric SC/ST/OBC/VJNT/SBC/EBC fee reimbursement and fellowships.", "hi": "महाराष्ट्र की सभी छात्रवृत्तियां एक पोर्टल पर — पोस्ट-मैट्रिक SC/ST/OBC/VJNT/SBC/EBC फीस वापसी और फैलोशिप।"},
+      "eligibility": {
+        "occupations": ["student"],
+        "notes": {"en": "Category-wise income limits apply (commonly ₹2.5–8 lakh); Aadhaar-seeded bank account required for DBT.", "hi": "श्रेणी अनुसार आय सीमा (आमतौर पर ₹2.5–8 लाख); DBT के लिए आधार-लिंक्ड बैंक खाता ज़रूरी।"}
+      },
+      "documents": ["Caste/income certificates", "Aadhaar card", "Marksheets", "Fee receipt", "Bank passbook"],
+      "applyUrl": "https://mahadbt.maharashtra.gov.in",
+      "sourceUrl": "https://mahadbt.maharashtra.gov.in",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "mh_atal_bandhkam",
+      "names": {"en": "Atal Bandhkam Kamgar Yojana (Construction Workers)", "hi": "अटल बांधकाम कामगार योजना"},
+      "aliases": ["construction worker card", "bandhkam kamgar", "mazdoor board mh"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["maharashtra"],
+      "benefits": {"en": "Registered construction workers get education aid for kids, marriage aid, maternity aid, accident/death compensation, tool kits and pension after 60.", "hi": "पंजीकृत निर्माण श्रमिकों को बच्चों की पढ़ाई में मदद, शादी भत्ता, प्रसूति सहायता, हादसा मुआवज़ा, औज़ार और 60 के बाद पेंशन।"},
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 55,
+        "notes": {"en": "Must have worked 90+ days in construction in the past year; register with the state Construction Workers Board.", "hi": "पिछले साल निर्माण कार्य में 90+ दिन काम; राज्य निर्माण श्रमिक बोर्ड में पंजीकरण ज़रूरी।"}
+      },
+      "documents": ["Aadhaar card", "90-day work certificate", "Bank passbook", "Photo"],
+      "applyUrl": "https://aaplesarkar.mahaonline.gov.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Bandhkam%20Kamgar",
+      "lastVerified": "2026-08"
+    }
+  ]
+}

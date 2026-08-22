@@ -1,0 +1,143 @@
+{
+  "version": "2026.08",
+  "pack": "state_bihar",
+  "schemes": [
+    {
+      "id": "bihar_student_credit_card",
+      "names": {"en": "Bihar Student Credit Card", "hi": "बिहार स्टूडेंट क्रेडिट कार्ड"},
+      "aliases": ["student credit card", "education loan bihar", "4 lakh loan"],
+      "category": "education",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Education loan up to ₹4 lakh at only 4% interest (1% for girls, disabled and transgender students) for higher studies after class 12.", "hi": "12वीं के बाद उच्च शिक्षा के लिए ₹4 लाख तक शिक्षा ऋण सिर्फ 4% ब्याज पर (बेटियों, दिव्यांग और ट्रांसजेंडर के लिए 1%)।"},
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 25,
+        "occupations": ["student"],
+        "notes": {"en": "Bihar domicile; must have passed class 12 from Bihar board/CBSE within Bihar. Age limits vary slightly by course (PG/PhD higher).", "hi": "बिहार मूलनिवासी; बिहार बोर्ड/बिहार के CBSE से 12वीं पास होना ज़रूरी। कोर्स अनुसार उम्र सीमा (पीजी/PhD में ज़्यादा)।"}
+      },
+      "documents": ["Aadhaar card", "Class 10 & 12 marksheets", "Admission proof", "Domicile certificate", "Bank account", "Co-applicant (parent) documents"],
+      "applyUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "sourceUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "bihar_kanya_utthan",
+      "names": {"en": "Kanya Utthan Yojana (Bihar)", "hi": "कन्या उत्थान योजना"},
+      "aliases": ["kanya utthan", "girl child bihar", "50000 girl"],
+      "category": "women",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Total ₹50,000 in stages for a girl child - birth registration, immunisation, school at class 9 & 12, unmarried at 21, graduation.", "hi": "बेटी के लिए अलग-अलग चरणों में कुल ₹50,000 — जन्म पंजीकरण, टीकाकरण, कक्षा 9 और 12 में स्कूल, 21 साल पर अविवाहित, ग्रेजुएशन।"},
+      "eligibility": {
+        "gender": "female",
+        "notes": {"en": "Bihar domicile; benefits tied to education milestones; ₹25,000 on graduation for unmarried girls.", "hi": "बिहार मूलनिवासी; पढ़ाई के पड़ावों से जुड़ा लाभ; ग्रेजुएशन पर अविवाहित बेटियों को ₹25,000।"}
+      },
+      "documents": ["Aadhaar card", "Birth certificate", "Marksheets", "Bank passbook", "Domicile"],
+      "applyUrl": "https://edudbt.bih.nic.in",
+      "sourceUrl": "https://www.myscheme.gov.in/search?q=Kanya%20Utthan",
+      "lastVerified": "2026-08",
+      "popular": true
+    },
+    {
+      "id": "bihar_swayam_sahayata_bhatta",
+      "names": {"en": "Swayam Sahayata Bhatta (Bihar Unemployed Allowance)", "hi": "स्वयं सहायता भत्ता (बेरोज़गारी भत्ता)"},
+      "aliases": ["unemployment allowance bihar", "nishchay allowance", "berojgari bhatta bihar"],
+      "category": "employment",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "₹1,000/month for 2 years to graduate job-seekers while they look for jobs.", "hi": "नौकरी ढूंढते समय स्नातक बेरोज़गारों को 2 साल तक ₹1,000/माह।"},
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 25,
+        "occupations": ["unemployed"],
+        "notes": {"en": "Bihar domicile, graduate, registered on the Nishchay portal.", "hi": "बिहार मूलनिवासी, स्नातक, निश्चय पोर्टल पर पंजीकृत।"}
+      },
+      "documents": ["Graduation marksheet", "Aadhaar card", "Residence proof", "Bank passbook"],
+      "applyUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "sourceUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "bihar_old_age_pension",
+      "names": {"en": "Bihar Old Age Pension", "hi": "बिहार वृद्धावस्था पेंशन"},
+      "aliases": ["old age pension bihar", "vriddha pension bihar"],
+      "category": "senior",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "State old-age pension (about ₹400/month plus central top-up where applicable) for poor seniors of Bihar.", "hi": "बिहार के गरीब बुज़ुर्गों के लिए राज्य वृद्धावस्था पेंशन (लगभग ₹400/माह + लागू होने पर केंद्रीय सहयोग)।"},
+      "eligibility": {"minAge": 60},
+      "documents": ["Aadhaar card", "Age proof", "Income/BPL proof", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://state.bihar.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "bihar_lakshmibai_pension",
+      "names": {"en": "Lakshmibai Social Security Pension (Widows)", "hi": "लक्ष्मीबाई सामाजिक सुरक्षा पेंशन (विधवा)"},
+      "aliases": ["widow pension bihar", "lakshmibai pension"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Monthly pension for poor widows of Bihar.", "hi": "बिहार की गरीब विधवाओं के लिए मासिक पेंशन।"},
+      "eligibility": {"gender": "female", "minAge": 18},
+      "documents": ["Husband's death certificate", "Aadhaar card", "Income proof", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://state.bihar.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "bihar_disability_pension",
+      "names": {"en": "Bihar Disability Pension", "hi": "बिहार दिव्यांग पेंशन"},
+      "aliases": ["disability pension bihar", "divyang pension bihar"],
+      "category": "social_security",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Monthly pension for persons with disabilities from poor families in Bihar.", "hi": "बिहार के गरीब परिवारों के दिव्यांगजनों के लिए मासिक पेंशन।"},
+      "eligibility": {
+        "notes": {"en": "Requires disability certificate (40%+).", "hi": "40%+ का डिसेबिलिटी सर्टिफिकेट ज़रूरी।"}
+      },
+      "documents": ["Disability certificate", "Aadhaar card", "Income proof", "Bank passbook"],
+      "applyUrl": "",
+      "sourceUrl": "https://state.bihar.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "bihar_kushal_yuva",
+      "names": {"en": "Kushal Yuva Program (Skills)", "hi": "कुशल युवा कार्यक्रम"},
+      "aliases": ["kushal yuva", "skill training bihar", "soft skills bihar"],
+      "category": "employment",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Free 3-month training in soft skills, basic IT and spoken English for youth, with certification.", "hi": "युवाओं के लिए 3 महीने का मुफ्त ट्रेनिंग — सॉफ्ट स्किल्स, बेसिक कंप्यूटर और इंग्लिश बोलना, सर्टिफिकेट के साथ।"},
+      "eligibility": {
+        "minAge": 15,
+        "maxAge": 28,
+        "occupations": ["unemployed", "student"]
+      },
+      "documents": ["Aadhaar card", "Qualification proof", "Residence proof"],
+      "applyUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "sourceUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "lastVerified": "2026-08"
+    },
+    {
+      "id": "bihar_post_matric_sc_st",
+      "names": {"en": "Bihar Post-Matric Scholarship (SC/ST)", "hi": "बिहार पोस्ट-मैट्रिक छात्रवृत्ति (SC/ST)"},
+      "aliases": ["bihar sc st scholarship"],
+      "category": "education",
+      "level": "state",
+      "states": ["bihar"],
+      "benefits": {"en": "Fee reimbursement and maintenance allowance for SC/ST students of Bihar studying after class 10.", "hi": "10वीं के बाद पढ़ रहे बिहार के SC/ST छात्रों को फीस वापसी और भत्ता।"},
+      "eligibility": {
+        "categories": ["sc", "st"],
+        "occupations": ["student"],
+        "maxIncomeLakh": 2.5
+      },
+      "documents": ["Caste certificate", "Income certificate", "Marksheets", "Fee receipt", "Bank passbook"],
+      "applyUrl": "https://www.pmsonline.bihar.gov.in",
+      "sourceUrl": "https://www.pmsonline.bihar.gov.in",
+      "lastVerified": "2026-08"
+    }
+  ]
+}

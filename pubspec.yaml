@@ -1,0 +1,32 @@
+name: sarkari_yojana_helper
+description: "Sarkari Yojana Helper - Find Indian government schemes you are eligible for. Offline, private, in your language."
+publish_to: 'none'
+
+version: 1.0.3+4
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.0
+  google_mobile_ads: ^9.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/data/
